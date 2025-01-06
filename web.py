@@ -5,7 +5,7 @@ import functions
 # Get todos from the file
 todos = functions.get_todos()
 
-# Function to add a new todo
+# Function to add a new _todo
 def add_todo():
     new_todo = st.session_state["new_todo"].strip()
     if new_todo:
