@@ -1,48 +1,25 @@
-✅ To-Do List App
-A simple To-Do List Application implemented in three different ways:
-1️⃣ Command Line Interface (CLI)
-2️⃣ Graphical User Interface (GUI) with FreeSimpleGUI
-3️⃣ Web-Based Interface using Streamlit
-This project allows users to add, edit, and complete tasks to boost productivity. 🚀
+# ✅ To-Do List App  
+A simple **To-Do List Application** implemented in **three different ways**:  
+1️⃣ **Command Line Interface (CLI)**  
+2️⃣ **Graphical User Interface (GUI) with FreeSimpleGUI**  
+3️⃣ **Web-Based Interface using Streamlit**  
 
-📌 Features
-✔ CLI Version
-Add, edit, complete, and view tasks from the command line.
-Saves tasks in a text file (todos.txt).
+This project allows users to **add, edit, and complete tasks** to boost productivity. 🚀  
 
-✔ GUI Version (Tkinter/FreeSimpleGUI)
-User-friendly task management with buttons & listbox.
-Editable task list with live time display.
+---
 
-✔ Web Version (Streamlit)
-Interactive Web App with task checkboxes.
-Users can add and complete tasks with a smooth UI.
+## **📌 Features**
+### 🖥️ **CLI Version**
+- **Add, edit, complete, and view tasks** from the command line.
+- Saves tasks in a text file (`todos.txt`).
+- Simple text-based **menu navigation**.
 
-🛠️ Installation & Setup
-🔹 Clone the Repository
-git clone https://github.com/AhmadTawil1/todo-list-app.git
-cd todo-list-app
+### 🖱️ **GUI Version (Tkinter/FreeSimpleGUI)**
+- **User-friendly task management** with buttons & listbox.
+- Editable **task list** with **live time display**.
+- Saves tasks locally for **easy retrieval**.
 
-🔹 Install Required Dependencies
-pip install -r requirements.txt
-
-🚀 Running the App
-1️⃣ CLI Version
-python cli.py
-🖥️ Command Line Interface (CLI) will prompt you to add, show, edit, complete or exit tasks.
-
-2️⃣ GUI Version (Tkinter/FreeSimpleGUI)
-python gui.py
-🖱️ Opens a desktop app where users can add, edit, and complete tasks.
-
-3️⃣ Web Version (Streamlit)
-streamlit run web.py
-🌍 Opens a web interface for managing tasks.
-
-🔧 Future Improvements
-🔹 Add database support (SQLite/MySQL) instead of text files.
-🔹 Implement user authentication for personalized to-do lists.
-🔹 Deploy the web version online using Render/Vercel.
-
-📜 License
-This project is licensed under the MIT License. Feel free to contribute!
+### 🌍 **Web Version (Streamlit)**
+- **Interactive Web App** with task checkboxes.
+- Users can **add and complete tasks** through a smooth UI.
+- Works directly in a web browser.
