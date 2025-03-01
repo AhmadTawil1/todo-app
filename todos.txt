@@ -1,3 +1,0 @@
-new todo1
-new todo2
-new todo3
